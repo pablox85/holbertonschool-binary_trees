@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "binary_trees.h"
 /**
- * void binary_tree_inorder - recorrer transversalmente
+ * binary_tree_inorder - recorrer transversalmente
  * @tree: ptr al arbol
  * @func: ptr a la funcion
  * Return: void
