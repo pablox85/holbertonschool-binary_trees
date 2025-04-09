@@ -24,3 +24,10 @@ int binary_tree_is_root(const binary_tree_t *node)
 
 	
 }
+
+ .-------(098)--.
+(012)--.       (128)--.
+     (054)          (402)
+Is 98 a root: 1
+Is 128 a root: 0
+Is 402 a root: 0
