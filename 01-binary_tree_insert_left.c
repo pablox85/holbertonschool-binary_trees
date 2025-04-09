@@ -31,3 +31,12 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 
 return (nN);
 }
+
+*--BEFORE--*
+.--(098)--.
+(012)     (402)
+
+*--AFTER--*
+       .--(098)-------.
+  .--(054)       .--(402)
+(012)          (128)
