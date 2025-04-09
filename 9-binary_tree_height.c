@@ -26,6 +26,6 @@ size_t  leftH, rightH, height;
 		height = rightH;
 	}
 
-	return(height + 1);
+	return (height + 1);
 }
 
