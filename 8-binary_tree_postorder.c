@@ -17,3 +17,13 @@ void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 	binary_tree_postorder(tree->right, func);
 	func(tree->n);
 }
+ .-------(098)-------.
+  .--(012)--.         .--(402)--.
+(006)     (056)     (256)     (512)
+6
+56
+12
+256
+512
+402
+98
