@@ -19,3 +19,9 @@ int binary_tree_is_leaf(const binary_tree_t *node)
 	return (0);
 
 }
+ .-------(098)--.
+(012)--.       (128)--.
+     (054)          (402)
+Is 98 a leaf: 0
+Is 128 a leaf: 0
+Is 402 a leaf: 1
