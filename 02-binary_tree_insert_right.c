@@ -29,7 +29,7 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 
 	return (nN);
 }
-
+/*
 *--BEFORE--*
 
   .--(098)--.
@@ -40,3 +40,5 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
   .-------(098)--.
 (012)--.       (128)--.
      (054)          (402)
+	*/
+

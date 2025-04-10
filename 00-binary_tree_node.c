@@ -26,7 +26,9 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 
 	return (nN);
 }
+/*
 *-- Added node 12->006->016 && 402<-256<-512--*
 .-------(098)-------.
   .--(012)--.         .--(402)--.
 (006)     (016)     (256)     (512)
+*/
