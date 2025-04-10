@@ -5,6 +5,7 @@
  * @tree: ptr al tree
  * Return: cantidad de nodos
  */
+
 size_t binary_tree_nodes(const binary_tree_t *tree)
 {
 	if (tree == NULL)
@@ -12,9 +13,10 @@ size_t binary_tree_nodes(const binary_tree_t *tree)
 
 	if (tree->left != NULL || tree->right != NULL)
 	{
-		 return (binary_tree_nodes(tree->left) + binary_tree_nodes(tree->right) +1 );
+		return (binary_tree_nodes(tree->left) + binary_tree_nodes(tree->right) + 1);
 	}
-	else{
+	else
+	{
 		return (0);
 	}
 
